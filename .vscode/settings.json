@@ -1,7 +1,10 @@
 {
     "files.exclude": {
-        "**/.DS_Store": true,
         "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
         "**/.vs": true,
         "**/.gitmodules": true,
         "**/.vsconfig": true,
@@ -54,7 +57,16 @@
         "ProjectSettings/": true,
         "UserSettings/": true,
         "temp/": true,
-        "Temp/": true
+        "Temp/": true,
+        "**/Assembly-CSharp.csproj": true,
+        "Assembly-CSharp.csproj": true,
+        "**/README.md": true,
+        "*.md": true,
+        "README.md": true,
+        "**/*.md": true,
+        "**/HordeJam.sln": true,
+        "HordeJam.sln": true
     },
-    "dotnet.defaultSolution": "HordeJam.slnx"
+    "dotnet.defaultSolution": "HordeJam.sln",
+    "explorerExclude.backup": {}
 }
